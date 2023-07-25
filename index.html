@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,   800;1,600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+      <style>
+        .font-style{
+            font-family: 'Poppins', sans-serif;
+
+        }
+      </style>
+
+</head>
+<body class="font-style">
+
+    <header class="">
+
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+              <li><a>Home</a></li>
+              <li><a>services ></a></li>
+              <li><a>cases ></a></li>
+              <li><a>Blog ></a></li>
+              <li><a>Contacts ></a></li>
+
+            </ul>
+          </div>
+          <div class="flex">
+            <img src="./images/logo.png" alt="">
+            <a class="btn btn-ghost normal-case text-xl">Justice</a>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>services ></a></li>
+              <li><a>cases ></a></li>
+              <li><a>Blog ></a></li>
+              <li><a>Contacts ></a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#B68C5A] text-white">Free Consultation</a>
+        </div>
+      </div>
+
+
+    </header>
+
+    <main>
+
+      <!-- banner-section -->
+
+      <div class="max-w-screen-xl max-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+        <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-start text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">We Provide Effective <br> Legal Solutions</h1>
+              <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+              <div class="flex gap-3 ">
+                <input type="text" placeholder="Type here" class="input input-bordered 
+                input-accent w-full max-w-xs" />
+                 <button class="btn bg-[#B68C5A]">Get Started</button></div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- card-section -->
+
+      <section class="max-w-screen-xl max-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 gap-5">
+          <!-- first-card -->
+
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/business.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Business Law</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="card-actions">
+                <img src="./images/Frame.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/business.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Business Law</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but 
+              the majority have suffered alteration in some form, by injected humour.
+              </p>
+              <div class="card-actions">
+                <img src="./images/Frame.png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/business.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Business Law</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but 
+              the majority have suffered alteration in some form, by injected humour.
+              </p>
+              <div class="card-actions">
+                <img src="./images/Frame.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/business.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Business Law</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but 
+              the majority have suffered alteration in some form, by injected humour.
+              </p>
+              <div class="card-actions">
+                <img src="./images/Frame.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/business.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Business Law</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but 
+              the majority have suffered alteration in some form, by injected humour.
+              </p>
+              <div class="card-actions">
+                <img src="./images/Frame.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/business.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Business Law</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but 
+              the majority have suffered alteration in some form, by injected humour.
+              </p>
+              <div class="card-actions">
+                <img src="./images/Frame.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </section>
+
+       <!-- banner-section -->
+
+       <section class="max-w-screen-xl max-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+        <div class="text-center my-3">
+          <h1 class="text-3xl font-semibold">What Our Client Say</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the 
+          majority have <br> suffered alteration in some form, by injected humour.</p>
+
+        </div>
+
+        <div>
+
+          <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Awlad Hossain</h1>
+                <h4>UIX Designer</h4>
+                <p class="mb-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+
+       <!-- frequency section -->
+       <section class="my-24">
+        <h3 class="text-5xl text-center font-semibold mb-5">Frequently Asked<span 
+          class="text-warning"> Quesion</span></h3>
+  
+        <div class="hero ">
+          <div class="hero-content flex-col lg:flex-row gap-24">
+            <img src="images/faq.png" class=" lg:max-w-sm rounded-lg shadow-2xl 
+              w-1/2" />
+            <div>
+                <!-- first quesion -->
+              <div class="collapse collapse-arrow">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+  
+                  What are the most important things I should
+                  know about riding a bike?
+                  <Translate text="Click to open this one and close others" />
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic 
+                  signals, signs, and laws. Get in the mindset of “driving” your 
+                  bike—not just “riding” your bike. This will help you be a more 
+                  focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- second quesion -->
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  How can I tell if my helmet is old and I need a 
+                  new one?
+                  <Translate text="Click to open this one and close others" />
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic 
+                  signals, signs, and laws. Get in the mindset of “driving” your 
+                  bike—not just “riding” your bike. This will help you be a more 
+                  focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- third quesion -->
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+  
+                  What are the most important things I should
+                  know about riding a bike?
+                  <Translate text="Click to open this one and close others" />
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic 
+                  signals, signs, and laws. Get in the mindset of “driving” your 
+                  bike—not just “riding” your bike. This will help you be a more 
+                  focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+  
+  
+  
+            </div>
+          </div>
+        </div>
+  
+      </section>
+
+      <!-- box section -->
+
+      <section>
+
+        <!-- korte hobe -->
+
+
+      </section>
+    </main>
+
+    <footer class="footer p-10 bg-black text-white text-base-content">
+      <div>
+        <span class="footer-title">Services</span> 
+        <a class="link link-hover">Branding</a> 
+        <a class="link link-hover">Design</a> 
+        <a class="link link-hover">Marketing</a> 
+        <a class="link link-hover">Advertisement</a>
+      </div> 
+      <div>
+        <span class="footer-title">Company</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div>
+        <span class="footer-title">Legal</span> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </div> 
+      <div>
+        <span class="footer-title">Newsletter</span> 
+        <div class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="relative">
+            <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
+            <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+</body>
+</html>
